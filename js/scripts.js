@@ -6,8 +6,14 @@
 //     $("#result").show();
 //   });
 // });
+let number = 0;
+let result = []
+function beepBoop(number) { 
+  let result = []
+for (let index = 0; index <= number; index++);
+  result.push(index);
+return result;
 
-let number = 0
-for (let index = 0; index <= number; index++) {
-  console.log(index)
 }
+
+//  beepBoop;
