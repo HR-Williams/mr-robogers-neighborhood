@@ -24,7 +24,7 @@ JavaScript and jQuery
 
 ### Legal
 
-Copyright (c) 2021 **HR WIlliams**
+Copyright (c) 2021 **HR Williams**
 
 This software is licensed under the MIT license.
 
