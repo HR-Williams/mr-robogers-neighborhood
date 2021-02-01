@@ -23,6 +23,22 @@
 
 // for (let index = 0; index < 1; index +=1) { console.log(index);}
 
-function beepBoop() {
-  let result = [0];
-  return result;}
+// function beepBoop() {
+//   let result = [0];
+//   return result;}
+
+//   function beepBoop(number) {
+//     let result = [];
+//     if (number = 0) {result.push(0);}
+//     else {result.push(0,"Beep");}
+
+//     return result;}
+
+  
+function beepBoop(number) {
+  let result = []
+  for (let index = 0; index <= number; index++) {
+    result.push(index);
+  };
+  return result;
+}
