@@ -21,6 +21,9 @@ Expect(beepBoop(0).toEqual([0]);
 Test: "It should return an array with 0,Beep! if the number 1 is inputted" <br>
 Expect(beepBoop(1).toEqual(["0", "Beep!"]);
 
+Test: "It should return an array with 0,Beep!,Boop" if the number 2 is inputted" <br>
+Expect(beepBoop(2).toEqual([0, "Beep!", "Boop!"]);
+
 ## Technologies Used
 
 JavaScript and jQuery
