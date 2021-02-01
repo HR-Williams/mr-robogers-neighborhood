@@ -6,14 +6,23 @@
 //     $("#result").show();
 //   });
 // });
-let number = 0;
-let result = []
-function beepBoop(number) { 
-  let result = []
-for (let index = 0; index <= number; index++);
-  result.push(index);
-return result;
+// let number = 0;
+// let result = [];
+// function beepBoop(number) { 
+//   let number = 0;
+//   let result = []
+// for (let index = 0; index <= number; index++);
+//   result.push(index);
+// return result;
 
-}
+// }
 
 //  beepBoop;
+
+
+
+// for (let index = 0; index < 1; index +=1) { console.log(index);}
+
+function beepBoop() {
+  let result = [0];
+  return result;}
