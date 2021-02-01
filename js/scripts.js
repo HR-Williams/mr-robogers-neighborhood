@@ -16,8 +16,13 @@ function beepBoop(number) {
     if (numberString.includes(1)) {
       result.push("Beep!");
     } else if (numberString.includes(2))
-    {result.push("Boop!");
-  }else result.push(index)
+    {
+      result.push("Boop!");
+    } else if (numberString.includes(3))
+    {
+      result.push("Won't you be my neighbor!");
+    }
+  else result.push(index)
   // return result;
   console.log(result);
 };
