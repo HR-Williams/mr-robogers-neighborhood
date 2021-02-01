@@ -38,7 +38,14 @@
 function beepBoop(number) {
   let result = []
   for (let index = 0; index <= number; index++) {
-    result.push(index);
-  };
-  return result;
-}
+    let numberString = index.toString();
+    if (numberString.includes(1)) {
+      result.push("Beep!");
+    }
+    else result.push(index);
+
+  // }
+  // return result;
+  console.log(result);
+};
+};
