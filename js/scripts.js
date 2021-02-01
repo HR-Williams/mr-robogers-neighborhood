@@ -1,11 +1,11 @@
-// $(document).ready(function()) {
-//   $("form#mr-robogers").submit(function(event) {
-//     event.preventDefault();
-//     let userInput = $("input#number").val()
-//     $("#result").text(beepBoop(number));
-//     $("#result").show();
-//   });
-// });
+$(document).ready(function() {
+  $("form#mr-robogers").submit(function(event) {
+    event.preventDefault();
+    let userInput = $("input#number").val()
+    $("#result").text(beepBoop(userInput));
+    $("#result").show();
+  });
+});
 
 
   
@@ -23,7 +23,7 @@ function beepBoop(number) {
       result.push("Won't you be my neighbor!");
     }
   else result.push(index)
-  // return result;
+  return result;
   console.log(result);
 };
 };
