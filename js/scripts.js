@@ -1,8 +1,10 @@
 $(document).ready(function() {
   $("form#mr-robogers").submit(function(event) {
     event.preventDefault();
-    let userInput = $("input#number").val()
+    let userInput = $("input#number").val();
+    // console.log(userInput);
     $("#result").text(beepBoop(userInput));
+    // console.log(beepBoop)
     $("#result").show();
   });
 });
@@ -23,7 +25,7 @@ function beepBoop(number) {
       result.push("Won't you be my neighbor!");
     }
   else result.push(index)
-  return result;
-  console.log(result);
+  
 };
+return(result);
 };
