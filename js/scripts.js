@@ -2,9 +2,7 @@ $(document).ready(function() {
   $("form#mr-robogers").submit(function(event) {
     event.preventDefault();
     let userInput = $("input#number").val();
-    // console.log(userInput);
     $("#result").text(beepBoop(userInput));
-    // console.log(beepBoop)
     $("#result").show();
   });
 });
